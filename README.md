@@ -27,6 +27,7 @@ Je développe et teste des mods en combinant QA, debug et logique technique afin
 Je m’intéresse particulièrement aux interactions entre systèmes (états joueur, transitions, timing, caméra).
 
 ---
+## 🔍 Exemple d’analyse système
 
 ## ⭐ Highlight – Désynchronisation caméra & état joueur
 
