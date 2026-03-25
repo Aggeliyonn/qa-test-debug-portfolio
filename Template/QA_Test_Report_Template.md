@@ -50,7 +50,7 @@ Chose attendue
 **Origine :** Étape X  
 
 #### Conditions
-Être sur un objet  
+-Être sur un objet  
 
 #### Étapes
 1. a  
@@ -58,10 +58,10 @@ Chose attendue
 3. c  
 
 #### Résultat actuel
-Description du problème  
+-Description du problème  
 
 #### Résultat attendu
-Comportement attendu  
+-Comportement attendu  
 
 #### Fréquence
 10/10  
@@ -72,10 +72,10 @@ Parfois → fonctionne une fois sur X
 Rare → difficile à reproduire  
 
 #### Analyse
-Semble lié à…  
-Se produit uniquement si…  
-Probable conflit entre…  
-Le problème semble provenir de…  
+-Semble lié à…  
+-Se produit uniquement si…  
+-Probable conflit entre…  
+-Le problème semble provenir de…  
 
 #### Statut
 (Choisir une seule valeur)  
@@ -92,7 +92,7 @@ Won’t Fix (décision volontaire)
 **Origine :** Étape Y  
 
 #### Conditions
-Être sur un objet  
+-Être sur un objet  
 
 #### Étapes
 1. a  
@@ -100,10 +100,10 @@ Won’t Fix (décision volontaire)
 3. c  
 
 #### Résultat actuel
-Description du problème  
+-Description du problème  
 
 #### Résultat attendu
-Comportement attendu  
+-Comportement attendu  
 
 #### Fréquence
 10/10  
@@ -114,10 +114,10 @@ Parfois → fonctionne une fois sur X
 Rare → difficile à reproduire  
 
 #### Analyse
-Semble lié à…  
-Se produit uniquement si…  
-Probable conflit entre…  
-Le problème semble provenir de…  
+-Semble lié à…  
+-Se produit uniquement si…  
+-Probable conflit entre…  
+-Le problème semble provenir de…  
 
 #### Statut
 (Choisir une seule valeur)  
@@ -134,7 +134,7 @@ Won’t Fix (décision volontaire)
 **Origine :** Étape Z  
 
 #### Conditions
-Être sur un objet  
+-Être sur un objet  
 
 #### Étapes
 1. a  
@@ -142,10 +142,10 @@ Won’t Fix (décision volontaire)
 3. c  
 
 #### Résultat actuel
-Description du problème  
+-Description du problème  
 
 #### Résultat attendu
-Comportement attendu  
+-Comportement attendu  
 
 #### Fréquence
 10/10  
@@ -156,10 +156,10 @@ Parfois → fonctionne une fois sur X
 Rare → difficile à reproduire  
 
 #### Analyse
-Semble lié à…  
-Se produit uniquement si…  
-Probable conflit entre…  
-Le problème semble provenir de…  
+-Semble lié à…  
+-Se produit uniquement si…  
+-Probable conflit entre…  
+-Le problème semble provenir de…  
 
 #### Statut
 (Choisir une seule valeur)  
