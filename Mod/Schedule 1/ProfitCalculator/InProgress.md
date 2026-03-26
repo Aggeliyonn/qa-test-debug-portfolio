@@ -207,6 +207,7 @@ Première appel des information des product via une interface
 - Première interface visible
 - Début du scan des produits
 - Premiers affichages d’informations
+  
 ![Première lecture depuis téléphone](Pictures/ui_phone_first_read.png)
 
 ### ⚠️ Partiel
@@ -281,6 +282,7 @@ Première appel des information des product via une interface
 - Recherche des bonnes données liées aux produits
 - Premiers affichages d’informations
 - Début de récupération de recipes / ingrédients / prix / basePrice
+
 ![Lecture téléphone](Pictures/ui_phone_first_read.png)
 
 ### Session - Blocage actuel
