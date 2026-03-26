@@ -221,6 +221,7 @@ Première appel des information des product via une interface
 - Transformer l’outil de test en vraie feature cohérente
 - Préparer le calcul de profit réel
 - Rendre l’interface plus propre et logique
+- Rendre l'interface lié au téléphone, fermer le téléphone ferme l'interface.
 
 ---
 
