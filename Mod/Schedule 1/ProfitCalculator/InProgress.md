@@ -214,7 +214,6 @@
 - Transformer l’outil de test en vraie feature cohérente
 - Préparer le calcul de profit réel
 - Rendre l’interface plus propre et logique
-- Rendre l'interface lié au téléphone, fermer le téléphone ferme l'interface.
 
 ---
 
@@ -282,6 +281,51 @@
 - L’interface n’est pas encore intégrée au bon contexte final
 - Il faut maintenant stabiliser l’input et les données
 
+### 🔧 Amélioration Interface – Système de filtres avancés
+
+**Objectif :**
+Permettre un tri intelligent des recettes pour améliorer la prise de décision en jeu.
+
+---
+
+**Ajouts prévus :**
+
+* Système de tri avec **jusqu’à 4 filtres actifs**
+* Critères disponibles :
+
+  * 💰 Prix
+  * 📈 Profit (%)
+  * 🧪 Nombre d’ingrédients
+  * ✨ Effet (limité à 1)
+
+---
+
+**Choix de design :**
+
+* Maximum 4 filtres pour éviter surcharge visuelle
+* Limitation à 1 effet pour garder une UI claire (surtout sur téléphone)
+* Priorité des filtres définie par l’ordre (Filtre 1 → Filtre 4)
+
+---
+
+**Utilisation prévue :**
+
+* Trouver la recette la plus rentable
+* Adapter la production selon les préférences client
+* Optimiser le craft (coût / complexité)
+
+---
+
+**Statut :**
+🟠 En réflexion (design validé, pas encore implémenté)
+
+---
+
+**Notes :**
+
+* Fonctionnalité prévue après stabilisation du système actuel (scan + affichage)
+* Possibilité d’évolution vers multi-effets plus tard
+
 ---
 
 ## 📤 Export
@@ -292,6 +336,7 @@
 - Début du scan des produits
 - Premières données visibles en jeu
 - Début du travail vers recipes / ingrédients / prix / basePrice
+- Transfert de l'interface vers application
 
 ### QA_Report
 - Problème de toggle F6 dans l’application produit
@@ -306,3 +351,4 @@
 - La prochaine vraie marche importante est de stabiliser la lecture des données.
 - Le second point critique est de décider comment l’utilisateur ouvre l’outil dans le vrai contexte.
 - Une fois recipes + ingrédients + prix stabilisés, le cœur du Profit Calculator pourra vraiment commencer.
+- Tester sur une grande partie pour voir si toutes les identités sont correctes.
