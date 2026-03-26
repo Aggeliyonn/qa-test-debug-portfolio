@@ -79,7 +79,6 @@
 
 ### 🧩 Input
 - [x] Toggle F6 mis en place
-- [ ] Vérifier pourquoi F6 ne fonctionne pas correctement dans l’application produit
 - [ ] Déterminer si l’input doit rester clavier ou passer par un bouton in-game
 - [ ] Restreindre l’ouverture à un contexte précis
 - [ ] Éviter l’ouverture au mauvais moment
@@ -126,12 +125,6 @@
 
 ## 🧠 Problèmes rencontrés
 
-### ❌ F6 ne fonctionne pas correctement dans l’application produit
-- **Description :** le toggle clavier ne réagit pas comme prévu dans ce contexte.
-- **Cause probable :** l’input est bloqué, capturé ou géré différemment quand l’application produit est ouverte.
-- **Impact :** l’interface n’est pas contrôlable comme voulu pendant l’usage réel.
-- **Statut :** En cours
-
 ### ❌ L’interface s’ouvre / existe encore comme outil global de test
 - **Description :** la fenêtre actuelle sert de base technique mais n’est pas encore liée proprement au bon contexte.
 - **Cause probable :** la logique d’ouverture est encore trop générale.
@@ -160,12 +153,12 @@
 
 ### ✔ Scan initial
 - **Action :** début du système de scan pour récupérer les produits.
-- **Résultat :** OK / Partiel
+- **Résultat :** OK
 - **Notes :** les premières données remontent, mais la structure finale reste à fiabiliser.
 
 ### ✔ Toggle F6
 - **Action :** ajout d’une touche pour afficher / masquer la fenêtre.
-- **Résultat :** Partiel
+- **Résultat :** OK
 - **Notes :** fonctionne comme base, mais pose problème dans l’application produit.
 
 ---
@@ -203,13 +196,11 @@
 ![Première lecture depuis téléphone](Pictures/ui_phone_first_read.png)
 
 ### ⚠️ Partiel
-- Toggle F6
 - Lecture complète des données produits
 - Structure des données
 - Lien entre l’interface et le bon contexte de jeu
 
 ### ❗ À faire
-- Corriger / comprendre l’input dans l’application produit
 - Stabiliser la récupération recipes / ingrédients / prix / basePrice
 - Transformer l’outil de test en vraie feature cohérente
 - Préparer le calcul de profit réel
@@ -234,7 +225,6 @@
 - [ ] Structurer les données pour les calculs
 
 ### Phase 3 - Intégration
-- [ ] Corriger le problème F6 / input
 - [ ] Relier l’interface au bon contexte
 - [ ] Intégrer l’outil à l’application produit / téléphone
 - [ ] Éviter l’ouverture hors contexte
