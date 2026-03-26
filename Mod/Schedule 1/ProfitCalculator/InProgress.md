@@ -61,8 +61,8 @@ Première appel des information des product via une interface
 - [x] Message de chargement affiché
 - [x] Harmony PatchAll actif
 - [x] Base du projet créée
-- [x] Scan.ResetSceneScan() appelé
 - [ ] Gestion plus fine des scènes / contextes
+- [ ] 
 
 ### 🧩 UI
 - [x] Fenêtre visible en jeu
