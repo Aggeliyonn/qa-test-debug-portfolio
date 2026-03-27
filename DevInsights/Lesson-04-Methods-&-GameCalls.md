@@ -37,10 +37,13 @@ Runs AFTER the method.
 Used for logging or reacting.
 
 ## Example
+
+```csharp
 if (Core.BlockDismount)
 {
     return false;
 }
+```
 
 This blocks the dismount.
 
