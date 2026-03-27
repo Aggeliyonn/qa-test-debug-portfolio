@@ -1,0 +1,165 @@
+# Lesson 06 — UI and Data Reading
+
+Understanding UI and data reading means learning how a mod can look at what is displayed on screen and turn that into usable information. In ProfitCalculator, this is important because the mod reads data from the in-game phone UI to calculate useful values for the player.
+
+---
+
+## Concept
+
+UI and data reading is the idea of collecting information from the game interface instead of directly changing the game itself.
+
+- **What is it?**  
+  It is the process of reading visible elements such as product names, prices, effects, recipes, or categories from the game UI.
+
+- **Where is it used?**  
+  It is used when a mod needs information that is already shown to the player, like values inside a phone app, menu, or panel.
+
+- **Why does it matter in modding?**  
+  Because sometimes the easiest or safest way to get game information is to read what the UI already shows, especially for a local helper mod like ProfitCalculator.
+
+---
+
+## Core Parts
+
+- UI Source: the menu, phone app, or panel that already displays information  
+- Data Reader: the part of the mod that looks for text, values, or fields inside the UI  
+- Data Storage: the place where the read values are saved temporarily so the mod can use them  
+- Refresh Logic: the moment when the mod updates the values again  
+- Display Logic: the part that shows the final processed data to the player  
+
+---
+
+## Example
+
+```csharp
+string productName = "OG Kush";
+int sellPrice = 45;
+int basePrice = 35;
+bool uiVisible = true;
+
+if (uiVisible)
+{
+    int profit = sellPrice - basePrice;
+    MelonLoader.MelonLogger.Msg($"Product={productName} Profit={profit}");
+}
+```
+
+---
+
+## What Happens Here
+
+1. A product name is stored in a string  
+2. The sell price is stored in a variable  
+3. The base price is stored in another variable  
+4. A boolean checks whether the UI is visible  
+5. If the UI is visible, the mod calculates the profit  
+6. The result is printed in the log  
+
+---
+
+## Exercises
+
+### 🎯 Question 1
+
+```csharp
+if (!uiVisible)
+{
+    return;
+}
+```
+
+👉 What happens here?  
+The code stops if the UI is not visible. The mod will not read or calculate anything.
+
+---
+
+### 🎯 Question 2
+
+```csharp
+int profit = sellPrice - basePrice;
+```
+
+👉 What does this line do?  
+It calculates the profit by subtracting the base price from the sell price.
+
+---
+
+### 🎯 Question 3 (modder level)
+
+```csharp
+if (uiVisible && sellPrice > 0)
+{
+    int profit = sellPrice - basePrice;
+}
+```
+
+👉 In which exact case does the calculation happen?  
+Only when the UI is visible AND the sell price is greater than 0.
+
+---
+
+### 🎯 Mini Challenge
+
+```csharp
+if (uiVisible)
+{
+    return true;
+}
+
+return false;
+```
+
+👉 Short version:
+
+```csharp
+return uiVisible;
+```
+
+---
+
+## Why It Is Useful
+
+- Helps collect values already shown by the game  
+- Allows calculations without changing the original system  
+- Useful for local helper mods  
+- Makes it possible to build tools like ProfitCalculator  
+- Helps organize complex information into readable results  
+
+---
+
+## Key Idea
+
+> UI and data reading means taking what the game already shows on screen and turning it into useful mod data.
+
+---
+
+## What I Learned
+
+- A mod can read UI instead of only patching gameplay  
+- Displayed values can become usable variables  
+- UI visibility must be checked before reading  
+- Data reading depends on timing and refresh  
+- Good reading comes before good calculation  
+
+---
+
+## What I Still Need to Practice
+
+- Finding the exact UI elements to read  
+- Managing refresh timing correctly  
+- Testing with different phone pages  
+- Avoiding duplicate or dirty data  
+- Separating data reading from UI display  
+
+---
+
+## Link to Real Project Use
+
+- **PhoneOnSkate** → uses UI state (phone open/close) to control behavior  
+- **ProfitCalculator** → reads phone UI data (products, prices, effects, recipes) to calculate and display profit  
+
+---
+
+## Footer
+
+This lesson is important because ProfitCalculator does not begin with math. It begins with reading the right information from the right place at the right time.
