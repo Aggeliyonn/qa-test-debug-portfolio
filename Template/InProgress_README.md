@@ -1,156 +1,156 @@
-# 🧪 In Progress - [NomDuProjet]
+# 🧪 In Progress - [ProjectName]
 
-**Statut :** 🟠 In Progress  
-**Version :** v0.1  
-**Type :** Mod / Feature / Tool  
-**Projet cible :** [Nom du jeu ou logiciel]  
-**Objectif principal :**  
-> [Décris ici l’objectif principal]
+**Status:** 🟠 In Progress
+**Version:** v0.1
+**Type:** Mod / Feature / Tool
+**Target Project:** [Game or Software Name]
+**Main Objective:**
+> [Describe the main objective here]
 
-**Vision finale :**  
-> [À quoi doit ressembler le projet terminé]
+**Final Vision:**
+> [What the finished project should look like]
 
 ---
 
 ## 🧱 Architecture
 
 ### Core
-- Initialisation du projet
-- Gestion des états globaux
-- Chargement des modules
+- Project Initialization
+- Global State Management
+- Module Loading
 
-### UI (si applicable)
-- Interface principale
-- Système d’ouverture / fermeture
-- Interaction utilisateur
+### UI (if applicable)
+- Main Interface
+- Opening/Closing System
+- User Interaction
 
 ### Data
-- Récupération des données
-- Traitement des données
-- Stockage temporaire
+- Data Retrieval
+- Data Processing
+- Temporary Storage
 
-### Hooks / Intégration
-- Points d’entrée dans le système cible
-- Méthodes surveillées
-- Détection du bon contexte
+### Hooks / Integration
+- Entry Points into the Target System
+- Monitored Methods
+- Correct Context Detection
 
 ### Debug
-- Système de logs
-- Vérifications
-- Suivi des comportements
+- Logging System
+- Checks
+- Behavior Tracking
 
 ---
 
-## ⚙️ Progression
+## ⚙️ Progress
 
 ### 🧩 Core
-- [ ] Initialisation fonctionnelle
-- [ ] Chargement sans erreur
-- [ ] Gestion des états
+- [ ] Functional Initialization
+- [ ] Error-Free Loading
+- [ ] State Management
 
 ### 🧩 UI
-- [ ] Interface visible
-- [ ] Interaction possible
-- [ ] Affichage correct
+- [ ] Visible Interface
+- [ ] Interaction Possible
+- [ ] Correct Display
 
 ### 🧩 Data
-- [ ] Accès aux données
-- [ ] Données cohérentes
-- [ ] Traitement correct
+- [ ] Data Access
+- [ ] Consistent Data
+- [ ] Correct Processing
 
-### 🧩 Intégration
-- [ ] Connexion au système cible
-- [ ] Détection du bon contexte
-- [ ] Comportement stable
+### 🧩 Integration
+- [ ] Connection to Target System
+- [ ] Correct Context Detection
+- [ ] Stable Behavior
 
 ### 🧩 Debug
-- [ ] Logs utiles
-- [ ] Erreurs identifiées
-- [ ] Tests validés
+- [ ] Useful Logs
+- [ ] Identified Errors
+- [ ] Validated Tests
 
 ---
 
-## 🔍 Découvertes techniques
+## 🔍 Technical Discoveries
 
-- [Classe / système intéressant]
-- [Méthode utile]
-- [Comportement observé]
-- [Relation entre systèmes]
+- [Interesting Class/System]
+- [Useful Method]
+- [Observed Behavior]
+- [Relationship] [between systems]
 
-### Hypothèses
-- [Hypothèse 1]
-- [Hypothèse 2]
+### Assumptions
+- [Assumption 1]
+- [Assumption 2]
 
-### Cibles importantes
-- [Élément à exploiter]
-- [Élément à surveiller]
-
----
-
-## 🧠 Problèmes rencontrés
-
-### ❌ Problème
-- **Description :**
-- **Cause probable :**
-- **Impact :**
-- **Statut :** À tester / En cours / Corrigé
+### Important Targets
+- [Element to Exploit]
+- [Element to Monitor]
 
 ---
 
-## 🛠 Solutions testées
+## 🧠 Problems Encountered
 
-### ✔ Tentative
-- **Action :**
-- **Résultat :**
-- **Notes :**
-
----
-
-## 🛠 Choix techniques
-
-- **Technologie principale :** [ex: C#, Python, etc.]
-- **Framework / Loader :** [si applicable]
-- **Type d’interface :** [si applicable]
-
-### Choix validés
-- [Choix 1]
-- [Choix 2]
-
-### Refusés
-- [Option écartée]
+### ❌ Problem
+- **Description:**
+- **Probable Cause:**
+- **Impact:**
+- **Status:** To be tested / In progress / Fixed
 
 ---
 
-## 📊 État actuel
+## 🛠 Tested Solutions
 
-### ✅ Fonctionne
-- [Élément]
+### ✔ Attempt
+- **Action:**
+- **Result:**
+- **Notes:**
 
-### ⚠️ Partiel
-- [Élément]
+---
 
-### ❗ À faire
-- [Élément]
+## 🛠 Technical Choices
+
+- **Main Technology:** [e.g., C#, Python, etc.]
+- **Framework / Loader:** [if applicable]
+- **Interface Type:** [if applicable]
+
+### Validated Choices
+- [Choice 1]
+- [Choice 2]
+
+### Rejected
+- [Option discarded]
+
+---
+
+## 📊 Current Status
+
+### ✅ Working
+- [Element]
+
+### ⚠️ Partial
+- [Element]
+
+### ❗ To Do
+- [Element]
 
 ---
 
 ## 🔮 Roadmap
 
 ### Phase 1 - Base
-- [ ] Mise en place
-- [ ] Tests initiaux
+- [ ] Setup
+- [ ] Initial Tests
 
-### Phase 2 - Fonction principale
-- [ ] Implémentation
+### Phase 2 - Main Function
+- [ ] Implementation
 - [ ] Validation
 
-### Phase 3 - Amélioration
-- [ ] Optimisation
-- [ ] UX / lisibilité
+### Phase 3 - Improvement
+- [ ] Optimization
+- [ ] UX / Readability
 
-### Phase 4 - Finalisation
-- [ ] Nettoyage
-- [ ] Tests finaux
+### Phase 4 - Finalization
+- [ ] Cleanup
+- [ ] Final Tests
 - [ ] Release
 
 ---
@@ -158,25 +158,25 @@
 ## 🧾 Dev Notes
 
 ### Session [Date]
-- [Action réalisée]
-- [Découverte]
-- [Blocage]
-- [Prochaine étape]
+- [Action Performed]
+- [Discovery]
+- [Block]
+- [Next Step]
 
 ---
 
 ## 📤 Export
 
 ### DevLog
-- [Progression notable]
+- [Notable Progress]
 
-### QA_Report
-- [Bug ou test validé]
+### QA Report
+- [Bug or Test Validated]
 
 ---
 
-## 🧿 Notes libres
+## 🧿 Free Notes
 
-- [Idée]
-- [Amélioration]
-- [Rappel]
+- [Idea]
+- [Improvement]
+- [Reminder]
