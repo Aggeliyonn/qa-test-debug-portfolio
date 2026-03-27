@@ -1,54 +1,55 @@
 # 🐉 Äggeliyonn  
-## QA / Test & Debug – Jeux vidéo  
+## QA / Test & Debug – Video Games  
 
-QA / Test & Debug portfolio basé sur des cas réels (modding Unity / MelonLoader).
-
----
-
-## 📊 Résumé
-
-🔴 Critiques : 1  
-🟠 Majeurs : 1  
-🟡 Mineurs : 1  
-🟢 Visuels : 0  
-
-### 📌 Statut Global
-
-✔ Corrigés : 2  
-🔧 En cours : 1  
-❗ Restants : 1  
-Total Bugs : 3  
+QA / Test & Debug portfolio based on real-world cases (Unity / MelonLoader modding).
 
 ---
 
-## 🧠 À propos
+## 📊 Summary
 
-Je travaille sur l’analyse, le test et la compréhension des systèmes de jeu.
+🔴 Reviews: 1
+🟠 Major: 1
+🟡 Minor: 1
+🟢 Visuals: 0  
 
-Je développe et teste des mods en combinant QA, debug et logique technique afin d’identifier, reproduire et analyser les comportements complexes en jeu.
+### 📌 Overall Status
 
-Je m’intéresse particulièrement aux interactions entre systèmes (états joueur, transitions, timing, caméra).
+✔ Fixed: 2
+🔧 In Progress: 1
+❗ Remaining: 1
+Total Bugs: 3  
 
 ---
 
-## 🔍 Exemple d’analyse système
+## 🧠 About
 
-### ⭐ Désynchronisation caméra & état joueur
+I work on the analysis, testing, and understanding of game systems.
 
-Lors du développement du mod **PhoneOnSkate**, un bug complexe apparaît à la fermeture du téléphone.
+I develop and test mods by combining QA, debugging, and technical logic to identify, reproduce, and analyze complex in-game behaviors.
 
-Le joueur reste correctement sur le skate (état monde cohérent), mais la caméra se désynchronise et bascule incorrectement entre première et troisième personne.
+I am particularly interested in the interactions between systems (player states, transitions, timing, camera).
 
-👉 Ce bug implique plusieurs systèmes :
+---
 
-- état du joueur  
-- objet skate  
-- interface téléphone (UI)  
-- gestion de la caméra  
+## 🔍 System Analysis Example
 
-### 📌 Analyse
+### ⭐ Camera & Player State Desynchronization
 
-Le problème semble provenir d’un conflit entre l’état du joueur maintenu sur le skate et la gestion de la caméra lors de la sortie de l’interface téléphone.
+During the development of the **PhoneOnSkate** mod, a complex bug appeared when the phone was closed.
+
+The player remained correctly on the skateboard (consistent world state), but the camera desynchronized and incorrectly switched between first and third person.
+
+👉 This bug involves several systems:
+
+- Player state
+- Skateboard object
+- Phone interface (UI)
+- Camera management
+
+
+### 📌 Analysis
+
+The problem appears to stem from a conflict between the player's state being maintained on the skateboard and the camera management when exiting the phone interface.
 
 ---
 
@@ -56,47 +57,50 @@ Le problème semble provenir d’un conflit entre l’état du joueur maintenu s
 
 ### 🎮 PhoneOnSkate — Schedule I
 
-**Contexte :** Mod en cours de développement et de test  
+**Context:** Mod currently under development and testing
 
-**Type :** Mod MelonLoader  
-**Objectif :** Utiliser le téléphone en skateboard  
+**Type:** MelonLoader Mod
+**Objective:** Use your phone while skateboarding
 
-**Travail réalisé :**
+**Work Completed:**
 
-- Analyse des états joueur  
-- Gestion des transitions (dismount / remount)  
-- Identification de bugs système :
-  - Clone d’objet (skate)  
-  - Désynchronisation caméra  
-  - Problèmes liés au timing (frames)  
+- Analysis of player states
+- Management of transitions (dismount/remount)
+- Identification of system bugs:
 
-📌 Exemple concret (QA Report complet) :  
-👉 [Voir le QA Report](PhoneOnSkate/QA_Report_v0.1.md)
+- Object cloning (skateboard)
+
+- Camera desynchronization
+
+- Timing issues (frames)
+
+📌 Concrete example (Full QA Report):
+👉 [See the QA Report](PhoneOnSkate/QA_Report_v0.1.md)
 
 ---
 
 ## 🧪 QA Reports
 
 - PhoneOnSkate v0.1  
-- (Projet à venir)
+- (Upcoming project)
 
 ---
 
-## 🧪 Approche QA
+## 🧪 QA Approach
 
-- Identification des scénarios  
-- Reproduction précise des bugs  
-- Analyse des conditions et du timing  
-- Documentation structurée (Dev Log + QA Report)  
-- Priorisation des bugs (critique → visuel)
+- Scenario identification
+- Accurate bug reproduction
+- Condition and timing analysis
+- Structured documentation (Dev Log + QA Report)
+- Bug prioritization (critical → visual)
 
 ---
 
-## 🛠️ Compétences
+## 🛠️ Skills
 
-- Test manuel  
-- Reproduction de bugs  
-- Analyse comportementale  
-- Analyse de systèmes multi-états  
-- Lecture de logs (MelonLoader / Unity)  
+- Manual testing
+- Bug reproduction
+- Behavioral analysis
+- Analysis of multi-state systems
+- Log reading (MelonLoader / Unity)
 - Modding (Harmony, IL2CPP)
