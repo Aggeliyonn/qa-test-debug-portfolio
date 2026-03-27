@@ -75,21 +75,23 @@ The issue appears to come from a conflict between the player's state being maint
 📌 Concrete example (Full QA Report):
 👉 [See the QA Report](Mod/Schedule1/PhoneOnSkate/QA_Report_v0.1.md)
 
-📊 ProfitCalculator — Schedule I
+---
 
-Context: Tool in active development
+### 📊 ProfitCalculator — Schedule I
 
-Type: Client-side Mod
-Objective: Analyze recipes and calculate profit based on ingredients and effects
+**Context:** Tool in active development  
 
-Work in Progress:
+**Type:** Client-side Mod  
+**Objective:** Analyze recipes and calculate profit based on ingredients and effects  
 
-Data extraction from in-game phone
-Recipe analysis system
-Profit calculation logic
-UI display and filtering (effects, ingredients, profit)
+**Work in Progress:**
 
-📌 Development tracking:
+- Data extraction from in-game phone  
+- Recipe analysis system  
+- Profit calculation logic  
+- UI display and filtering (effects, ingredients, profit)  
+
+📌 Development tracking:  
 👉 [See the project](Mod/Schedule1/ProfitCalculator/README.md)
 
 ---
